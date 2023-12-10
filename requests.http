@@ -2,6 +2,10 @@
 GET http://localhost:8080/tasks
 Accept: application/json
 
+### Get task
+GET http://localhost:8080/tasks/2
+Accept: application/json
+
 ### Create task
 POST http://localhost:8080/tasks
 Accept: application/json
@@ -10,3 +14,4 @@ Content-Type: application/json
 {
   "title": "Create api"
 }
+
